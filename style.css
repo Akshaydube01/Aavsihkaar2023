@@ -1,0 +1,166 @@
+/* Reset default styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Set default font and color */
+  body {
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #ffffff;
+    padding: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  nav li {
+    margin-left: 20px;
+  }
+  
+  nav a {
+    font-family:  'Dancing Script', cursive;
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+  }
+  nav a:hover{
+    background-color: #333;
+    color: #fff;
+  }
+  
+  /* Banner styles */
+  #banner {
+    
+    background-color: #fffffffc;
+    text-align: center;
+    padding: 0px 0;
+    margin-bottom: 0px;
+  }
+  
+  #banner img {
+    width: 100%;
+    max-width: 3000px;
+    margin-bottom: 0;
+    border-bottom: 0pxpx solid #cccccc;
+  margin-bottom: 0;
+  padding: 0px;
+  text-align: center;
+  }
+  
+  /* Wishes and Messages styles */
+  /* Wishes and Messages styles */
+#wishes {
+    padding: 30px;
+    margin-bottom: 30px;
+    font-family:  'Dancing Script', cursive;
+  }
+  
+  #wishes h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  #wishes p {
+    font-size: 20px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+  }
+  
+
+  /* Footer styles */
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #000000;
+  }
+  
+  footer a {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  footer img {
+    width: 25px; /* Adjust the size as needed */
+  }
+  
+  footer a:hover {
+    opacity: 0.7; /* Adjust the opacity to your preference */
+  }
+  
+  /* Media queries for responsive design */
+  @media (max-width: 768px) {
+    #banner h1 {
+      font-size: 36px;
+      margin-bottom: 10px;
+    }
+  
+    #banner img {
+      max-width: 400px;
+    }
+}
+ 
+  /* Wishes and Messages styles */
+  #wishes {
+    padding: 30px;
+    margin-bottom: 30px;
+  }
+  
+  #wishes h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  #wishes p {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+  }
+  .chats {
+    background-image: url('./1200px-Devanagari_aa.svg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    padding-left: 145px; /* add some padding to the left so the text isn't overlapping with the logo */
+  }
+  
+  .gallery {
+    background-image: url('./chat.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    padding-left: 95px; /* add some padding to the left so the text isn't overlapping with the logo */
+  }
+  .reg {
+    background-image: url('./qr.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    padding-left: 90px; /* add some padding to the left so the text isn't overlapping with the logo */
+  }
+  .con{
+    background-image: url('./contact.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    padding-left: 90px; /* add some padding to the left so the text isn't overlapping with the logo */
+  }
+  .logo{
+    background-image: url('./logo-removebg-preview.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    padding-left: 160px; /* add some padding to the left so the text isn't overlapping with the logo */
+  }
